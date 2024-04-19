@@ -1,0 +1,40 @@
+.button-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 3rem 2rem;
+}
+
+.button {
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 1px 5px 3px #d8d0d0;
+  color: rgb(126, 120, 120);
+  background: #f8f9fa;
+  overflow: hidden;
+}
+
+.icon {
+  width: 70px;
+}
+
+p {
+  font-size: 18px;
+}
+
+/* Additional Styling */
+.browse-button {
+  padding: 0 40px;
+  box-shadow: inset 5px 5px 8px #aeabab;
+  font-weight: bold;
+  color: black;
+}
+
+.domain-button {
+  display: flex;
+  padding-right: 20px;
+  align-items: center;
+  font-weight: bold;
+}

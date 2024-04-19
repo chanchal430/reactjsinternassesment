@@ -1,0 +1,31 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.container {
+  height: 100%;
+  width: 90%;
+  display: grid;
+  justify-content: center;
+  text-align: left;
+  border-radius: 3%;
+  box-shadow: 2px 5px 4px 3px #b6abab;
+}
+
+.title-header {
+  padding-left: 5%;
+  position: relative;
+}
+
+.title-header:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 450px;
+  left: 19%;
+  top: 122%;
+  z-index: 1;
+  background-color: black;
+}
